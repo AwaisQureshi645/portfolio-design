@@ -1,0 +1,119 @@
+*{
+    margin: 0%;
+    padding: 0%;
+
+}
+.about_maon_heading{
+    background-color: #fafafa;
+    margin: auto;
+}
+.about_maon_heading h2{
+    text-align: center;
+    /* font-size: 2rem; */
+    color: #434534;
+    font-size: 3.2rem;
+    margin: 3rem 0rem;
+}
+.line{
+    width: 9rem;
+    height:5px;
+   background-color: #F86F03;
+   margin: auto;
+    margin-bottom: 3rem;
+    border-radius: 5px;
+}
+/* aboutContainer */
+.aboutContainer{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: auto;
+    border: 1px solid rgb(117, 117, 117);
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+
+
+}
+.aboutContainer .aboutLeft{
+    width: 48%;
+}
+.aboutLeft img{
+
+    width: 80%;
+    
+}
+.aboutContainer .aboutRight{
+width: 48%;
+height: auto;
+
+}
+.aboutRightContent{
+    padding: 4rem 2rem;
+}
+.aboutRightContent h3{
+
+    color: #F86F03;
+    margin-bottom: 1rem;
+}
+.aboutRightContent h1{
+font-size: 2rem;
+}
+.aboutRightContent p{
+    margin-top: 1rem;
+    color: rgb(100, 100, 100);
+    padding: 0.3rem;
+    white-space: pre-wrap;
+}
+@media (max-width: 600px) {
+
+    .aboutContainer{
+        width: 98%;
+        /* width: 98%; */
+        display: flex;
+        flex-direction: column;
+    }
+    .aboutContainer .aboutLeft {
+        width: 48%;
+        margin: auto;
+    }
+    .aboutContainer .aboutRight {
+        width: 88%;
+        height: auto;
+        margin: auto;
+    }
+.container_content_expertice {
+
+margin-left: 4rem;
+
+}
+.aboutRightContent h1 {
+    font-size: 1.5rem;
+}
+.about_maon_heading {
+    width: 100vw;
+   
+}
+}
+@media (max-width: 767px) {
+
+    .aboutContainer .aboutLeft {
+        width: 56%;
+        margin-top: 1rem;
+        margin: auto;
+    }
+    .aboutContainer .aboutRight {
+        width: 80%;
+        margin: auto;
+        height: auto;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .aboutRightContent h1 {
+        font-size: 1.5rem;
+    }
+    .aboutRightContent {
+        padding: 4rem 0rem;
+    }
+}

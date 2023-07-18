@@ -1,0 +1,117 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.contact_container{
+    text-align: center;
+}
+.contactBoxContainer{
+    width: 90%;
+    height: auto;
+    margin: auto;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+.box1{
+width: 50%;
+height: auto;
+display: flex;
+flex-direction: column;
+/* border: 3px solid rgb(0, 0, 0); */
+justify-content: space-evenly;
+align-items: center;
+
+}
+.container_content{
+    width: 10rem;
+
+   
+}
+.contact_container p{
+    font-size: 1rem;
+}
+.contact_container h2{
+    font-size: 3.2rem;
+    margin-top: 1.4rem;
+}
+.container_content h4{
+    margin: 1rem 0rem;
+}
+.arrow_icon{
+    margin: 0.2rem 0rem;
+    color: #ff6f00;
+    cursor: pointer;
+}
+.form_heading{
+    margin: 2rem 5rem;
+    padding-top: 1.5rem;
+}
+.boxForm{
+    width: 50%;
+    height: auto;
+    /* border: 1px solid blue; */
+}.form_container_data{
+    display: flex;
+    width: 20rem;
+    flex-direction: column;
+}
+.form_container_data input{
+    margin-bottom: 1rem;
+    height: 5vh;
+    border-radius: 0.4rem;
+    outline: none;
+    padding-left: 0.5rem;
+    font-size: 15px;
+    border: 1px solid gray;
+}
+.form_container_data textarea{
+    border-radius: 0.4rem;
+    padding-left: 0.3rem;
+    padding-top: 0.2rem;
+    font-size: 15px;
+    border: 1px solid gray;
+    outline: none;
+}
+#submit{
+    font-size: 17px;
+    color: black;
+    background: transparent;
+    border: none;
+    outline: none;
+}
+.contentboxx{
+    margin-top: 5px;
+    margin-left: 0.3rem;
+}
+
+@media (max-width: 400px) {
+.form_container_data {
+    display: flex;
+    width: 100%;
+}
+}
+@media (max-width: 600px) {
+    .form_container_data {
+        display: flex;
+        width: 100%;
+    }
+    .form_heading {
+        margin: 2rem 1rem;
+    }
+    
+    
+.contactBoxContainer {
+    display: flex;
+    flex-direction: column;
+}
+.box1 {
+    width: 100%;}
+    .boxForm {
+        width: 59%;
+        height: auto;
+        margin-left: 6rem;
+        margin: auto;}
+}

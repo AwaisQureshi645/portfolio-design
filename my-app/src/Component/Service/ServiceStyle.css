@@ -1,0 +1,62 @@
+*{
+    margin: 0cap;
+    padding: 0%;
+
+}
+.ServideMainHeading h2{
+text-align: center;
+font-size: 3.2rem;
+margin: 3rem 0rem;
+}
+.line{
+    width: 5rem;
+    background-color: #F86F03;;
+}
+.showAll_icon{
+    width: 80%;
+    margin:auto ;
+   
+    /* border: 1px solid rgb(189, 189, 189); */
+    margin-bottom: 4rem;
+    display: flex;
+    border-radius: 1rem;
+
+}
+.frontEndBox{
+    width: 50%;
+    
+
+}
+.showLogoSkills{
+    display: flex;
+    flex-wrap: wrap;
+}
+.backendBox{
+    width: 50%;
+    border-left: 1px solid rgb(109, 105, 107);
+    height: auto;
+}
+.Icons{
+    width: 3rem;
+    margin: 1rem 1rem;
+}
+@media (max-width: 600px) {
+.Sercerice_container {
+    width: 100vw;
+}
+}
+@media (max-width: 444px) {
+    .showAll_icon {
+        display: flex;
+        flex-direction: column;
+    }
+    .frontEndBox {
+        width: 100%;
+        margin: auto;
+    }
+    .backendBox {
+        width: 100%;
+        border-left: none;
+        height: auto;
+    }
+}

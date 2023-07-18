@@ -1,0 +1,437 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet');
+
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+.mainImage {
+  width: 100%;
+  height: auto;
+  /* background-image: url('https://dizme-vue.vercel.app/img/slider/1.jpg'); */
+  background-color: #ebf9ff;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 3rem 0rem;
+}
+
+.leftSideContent {
+  width: 40%;
+  /* height: 30rem; */
+  /* border: 1px solid rebeccapurple; */
+}
+
+.rightSideContent {
+  width: 40%;
+  height: 30rem;
+  /* border: 2px solid blue; */
+}
+
+.nameHeafing {
+  padding-left: 2rem;
+
+}
+
+.nameHeafing h2 {
+  margin-top: 4rem;
+  margin-right: 1rem;
+
+  color: #F86F03;
+}
+
+.nameHeafing h3 {
+  font-size: 40px;
+  margin-right: 1rem;
+
+  font-family: 'Poppins', sans-serif;
+}
+
+.showAll_icons {
+  /* height: auto; */
+  height: 50vh;
+}
+
+.nameHeafing h4 {
+  margin-top: 0.5rem;
+  margin-right: 1rem;
+
+  font-size: 20px;
+  color: #0a0a0a;
+}
+
+.nameHeafing h4 span {
+  color: #F86F03;
+}
+
+.nameHeafing p {
+  margin-top: 1rem;
+  padding: 0.5rem;
+  width: 70%;
+}
+
+.addicon {
+  display: flex;
+  /* border:1px solid rebeccapurple; */
+  width: 30%;
+  height: 10vh;
+  margin-left: 2.5rem;
+  margin-top: 1rem;
+  justify-content: space-between;
+}
+
+.showIcon {
+  font-size: 30px;
+}
+
+.download_resume {
+  margin-left: 5rem;
+  margin-top: 2rem;
+}
+
+.download_resume button {
+  padding: 1rem 1.5rem;
+  background-color: #F86F03;
+  color: white;
+  border-radius: 0.5rem;
+  outline: none;
+  border: 1px solid gray;
+
+}
+
+/* right side */
+
+
+.rightSideContent {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  /* border: 1px solid red; */
+  align-items: center;
+}
+
+.imageBox img {
+  position: fixed;
+}
+
+.imageBox img {
+  width: 70%;
+  /* height: 45vh; */
+  /* border: 1px solid rebeccapurple; */
+  /* background-color: #F86F03; */
+  border-radius: 50%;
+  /* animation: moveUpDown 3s infinite; */
+  animation: moveRightAndBack 5s infinite;
+  margin-top: 2.5rem;
+  margin-right: -2rem;
+
+}
+
+.dp {
+  width: 70%;
+  /* height: 100px; */
+  /* background-color: blue; */
+  position: relative;
+  animation: moveRightAndBack 2s infinite;
+}
+
+@keyframes moveRightAndBack {
+
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+
+  50% {
+    transform: translateX(-10px);
+  }
+}
+
+@keyframes moveUpDown {
+  0% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-20px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+/* stop */
+
+/* extra code  */
+.icons>* {
+  margin: 0 5px;
+  /* Adjust the margin as per your desired spacing between icons */
+}
+
+.showAll_icons {
+  width: 5rem;
+ height: auto;
+  /* border: 1px solid rebeccapurple; */
+  margin-left: -2rem;
+}
+
+.Icons1 {
+  width: 3rem;
+  padding: 3rem 0rem;
+  animation: moveUpDown 5s infinite;
+}
+
+.Icons2 {
+  width: 3rem;
+  animation: moveUpDown 5s infinite;
+
+}
+
+.Icons3 {
+  width: 3rem;
+  padding: 2rem 1rem;
+  animation: moveUpDown 5s infinite;
+}
+
+/* react ixon */
+.Icons4 {
+  width: 3rem;
+  margin-top: -21rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Icons5 {
+  width: 3rem;
+  margin-left: 3rem;
+
+  margin-top: 6rem;
+  animation: moveUpDown 5s infinite;
+}
+
+.text-animation {
+  opacity: 0;
+  animation: fadeIn 1s forwards;
+}
+
+.Icons3 {
+  width: 5rem;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.text-animation.animate {
+  animation: slideIn 1s infinite;
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateX(-100%);
+  }
+
+  to {
+    transform: translateX(0);
+  }
+}
+
+.whatapp_img {
+  width: 3rem;
+  position: fixed;
+  bottom: 20px;
+  right: 25px;
+  animation: moveUpDown 5s infinite;
+
+}
+
+@media (max-width: 600px) {
+  body {
+    margin-top: 2.6rem;
+  }
+
+  .rightSideContent {
+    width: 80%;
+  }
+
+  .dp {
+    width: 88%;
+  }
+
+  .showAll_icons {
+    height: auto;
+    margin-left: -3rem;
+  }
+
+  .leftSideContent {
+    width: 90%;
+
+  }
+
+  .mainImage {
+    box-sizing: border-box;
+    width: 100vw;
+    /* width: 100%; */
+  }
+
+  .addicon {
+    width: 50%;
+  }
+
+  .showAll_icons {
+    height: auto;
+  }
+
+  .Icons4 {
+    width: 7rem;
+    margin-top: -27rem;
+    display: flex;
+    justify-content: space-between;
+    /* height: 7rem; */
+    margin-left: -3rem;
+  }
+
+}
+
+@media (min-width: 601px) and  (max-width: 767px) {
+  .rightSideContent {
+    width: 90%;}
+
+  /* CSS rules for mobile devices */
+  .leftSideContent {
+    width: 90%;
+  }
+  .Icons5 {
+    width: 3rem;
+    margin-left: 0rem;
+    margin-top: 2rem;
+    animation: moveUpDown 5s infinite;
+}
+.Icons4 {
+  width: 3rem;
+  margin-top: -21rem;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+  margin-right: -2rem;
+}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .Icons4 {
+    width: 6rem;
+    margin-right: -3rem;
+    margin-top: -24rem;
+}
+  .showAll_icons {
+ 
+    height: auto;
+  }
+  /* testing code */
+  .Icons1 {
+    width: 3rem;
+    padding: 1rem 0rem;
+
+  }
+
+  .Icons3 {
+    width: 5rem;
+    margin-left: -1rem;
+  }
+
+  .Icons5 {
+    width: 3rem;
+    margin-left: 0rem;
+    margin-top: 2rem;
+    animation: moveUpDown 5s infinite;
+}
+
+  .Icons4 {
+    width: 6rem;
+    margin-top: -27rem;
+  }
+
+  /* .showAll_icons {
+    width: 4rem;
+    margin-left: -3rem;
+    height: auto;
+  } */
+
+  .Icons4 {
+    width: 6rem;
+    margin-top: -24rem;
+
+  }
+
+  .addicon {
+    width: 57%;
+  }
+
+  .mainImage {
+    padding-top: -1rem;
+    padding: 5.3rem 0rem;
+  }
+
+  .nameHeafing h3 {
+    font-size: 28px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .showAll_icons {
+    width: 5rem;
+    height: auto;
+
+
+  }
+
+  .Icons5 {
+    width: 3rem;
+    margin-left: 1rem;
+    margin-top: 2rem;
+    animation: moveUpDown 5s infinite;
+  }
+
+  .Icons4 {
+    margin-right: -2rem;
+    width: 5rem;
+    margin-top: -25rem;
+  }
+
+  .addicon {
+    width: 50%;
+  }
+}
+@media (min-width: 1200px){
+  .showAll_icons {
+    width: 5rem;
+    height: auto;
+
+
+  }
+
+  .Icons5 {
+    width: 3rem;
+    margin-left: 1rem;
+    margin-top: 2rem;
+    animation: moveUpDown 5s infinite;
+  }
+
+  .Icons4 {
+    margin-right: -3rem;
+    width: 5rem;
+    margin-top: -25rem;
+  }
+}
